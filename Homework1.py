@@ -8,4 +8,8 @@ y2 = np.cos(x)
 
 #Plot
 plt.plot(x,y1,x,y2)
+
+#Add labels
+plt.xlabel("Period")
+plt.ylabel("Value")
 plt.show()
